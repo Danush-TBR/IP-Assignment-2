@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+*{
+  box-sizing: border-box;
+}
+.column-1,.column-2,.column-3{
+    margin-top: 100px;
+    border-radius: 15px;
+    height: 700px;
+}
+.heading{
+    margin-top: 30px;
+    margin-bottom: 0px;
+    font-size: 75px;
+    font-family:sans-serif;
+    letter-spacing: 4px;
+    color: rgb(202, 200, 200)
+}
+.column-1,.column-2,.column-3{
+    font-size: xx-large;
+}
+.column-1{
+    width: 30%;
+    float: left;
+    padding: 20px;
+    margin-left: 3%;
+}
+.column-2{
+    float: left;
+    margin-left: 2%;
+    width: 30%;
+    padding: 20px;
+}
+.column-3{
+    float: right;
+    width: 30%;
+    margin-right: 3%;
+    padding: 20px;
+}
+.column-1{
+    background-color: rgb(66, 126, 255,0.932);
+}
+.column-2{
+    background-color: rgba(252, 164, 33, 0.884);
+}
+.main-division:after {
+    content: "";
+    display: table;
+    clear: both;
+} 
+.rahman-sir-image,.harris-sir-image,.santhosh-sir-image{
+    margin-top: 20px;
+    text-align: center;
+}
+.rahman-sir-image:hover{
+    border-radius: 0%;
+}
+.the-image-of-rahman-sir,.the-image-of-harris-sir,.the-image-of-santhosh-sir{
+    border-radius: 50%;
+}
+.about-rahman-sir,.about-harris-sir,.about-santhosh-sir{
+    padding: 3px;
+    text-indent: 75px;
+    font-size: 25px;
+}
+.the-image-of-rahman-sir:hover,.the-image-of-harris-sir:hover{
+    transform: rotate(360deg);
+}
+.the-image-of-santhosh-sir:hover{
+    transform: rotate(-360deg);
+}
+.the-image-of-rahman-sir:hover,.the-image-of-harris-sir:hover,.the-image-of-santhosh-sir:hover{
+    transition-timing-function: ease;
+    transition-delay: 5ms;
+    transition-duration: 0.5s;
+}
