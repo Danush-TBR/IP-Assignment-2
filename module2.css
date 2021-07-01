@@ -74,14 +74,6 @@
     transition-duration: 0.5s;
 }
 @media screen and (max-width: 1200px){
-    /*.column-1,.column-2,.column-3{
-        height: 500px;
-        width: 100%;
-        float: left;
-        padding: 20px;
-        margin-left: 3%;
-        margin-right: 3%;
-    }*/
     .about-rahman-sir,.about-harris-sir,.about-santhosh-sir{
         padding: 2px;
         text-indent: 10px;
@@ -110,5 +102,11 @@
         margin-left: 1%;
         margin-right: 1%;    
         padding: 20px;
+    }
+    .column-1{
+        background-color: rgb(66, 126, 255,0.932);
+    }
+    .column-2{
+        background-color: rgba(252, 164, 33, 0.884);
     }
 }
